@@ -46,7 +46,7 @@ html, body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: black; /* Kept your solid black background preference */
+  background-color: rgb(var(--background-start-rgb));
 }
 
 a {

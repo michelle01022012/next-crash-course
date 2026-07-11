@@ -9,13 +9,18 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-     <Navbar />
-     <ul>
-       <li>Item 1</li>
-       <li>Item 2</li>
-       <li>Item 3</li>
-       <li>Item 4</li>
-     </ul>
+ <ul>
+  <li>Home</li>
+  <li>Posts</li>
+  <li>Users</li>
+</ul>
+
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+  <li>Item 4</li>
+</ul>
     </>
   )
 }
