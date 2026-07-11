@@ -11,7 +11,7 @@ export default function Posts() {
       setPosts(data);
 
     }
-      fetchData();
+      fetchPosts();
 
   }, []);
 
